@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+   <mj-style inline="inline">
+    .head-er div{
+    background-color: red;
+   }
+
+   </mj-style>
+
+  </mj-head>
+    
+  <mj-body background-color="#4E8098">
+    <mj-section >
+      <mj-column width="50%">
+        <mj-text align="center" font-family="Helvetica Neue" font-size="40px" color="#E6E8E6">Pau Gradoli</mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text align="left" font-family="Helvetica Nue" font-size="17px" color="#E6E8E6">Mis proyectos</mj-text>
+      </mj-column>
+      <mj-column  width="30%">
+      
+      <mj-button border-radius="15px" background-color="#CC8B86" align="left"  href="https://github.com/Akirachii/BuggedAndBuffed">ver</mj-button>
+      </mj-column>
+  </mj-section>
+
+  <mj-section border-radius="15px" background-url="../images/imggit.png" background-size="cover" background-repeat="no-repeat">
+      <mj-column width="600px">
+        <mj-text align="right" color="#fff" font-size="40px" font-family="Helvetica Neue">:D</mj-text>
+        <mj-text color="#E6E8E6" align="right">Soy pau y este es una diminuta demostracion de mis habilidades</mj-text>
+        
+      </mj-column>
+  </mj-section>
+  
+  <mj-section padding="20px" >
+    <mj-column border-radius="20px" background-color="#CC8B86">
+      <mj-text>ofh</mj-text>
+    </mj-column>
+
+  
+
+  </mj-section>
+
+
+
+  </mj-body>
+</mjml>
