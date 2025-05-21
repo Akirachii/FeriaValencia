@@ -3,7 +3,7 @@
    <mj-style inline="inline">
     .head-er div{
     background-color: red;
-   }
+   }E6E8E6
 
    </mj-style>
 
@@ -33,7 +33,7 @@
   
   <mj-section padding="20px" >
     <mj-column border-radius="20px" background-color="#CC8B86">
-      <mj-text>ofh</mj-text>
+      <mj-text>Testing Phase</mj-text>
     </mj-column>
 
   
