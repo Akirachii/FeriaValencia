@@ -20,16 +20,13 @@ En este caso buscamos llamar la atencion de los visitantes y que rellenen el for
 #### Dafo y competencia
 
  - Dafo  
-
-    ![test](../images/2ruedsPreview.png)
-
+    WIP
  - Competencia  
     WIP
 
+## Diseño
 
-## Stands 🔧
-🔧
+### Mockup 🔧
+v0.0.0
+![test](../images/2ruedsPreview.png)
 
-
-### Mockup version 0.1
-![2 rUEDAS](../images/2ruedsPreview.png)
