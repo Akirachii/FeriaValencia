@@ -27,6 +27,6 @@ En este caso buscamos llamar la atencion de los visitantes y que rellenen el for
 ## Diseño
 
 ### Mockup 🔧
-v0.0.0
+v0.0.0  
 ![test](../images/2ruedsPreview.png)
 
