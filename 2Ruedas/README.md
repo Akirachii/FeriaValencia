@@ -13,7 +13,7 @@ En este caso buscamos llamar la atencion de los visitantes y que rellenen el for
 
  🗓️ 14-16-NOV-2025	 
 
- ![motul](../images/motogp-motul.jpg)
+ ![motul]([../images/motogp-motul.jpg](https://raw.githubusercontent.com/Akirachii/FeriaValencia/d539fd73098ce74aa7ac4a11222329037c794d4b/images/motogp-motul.jpg))
         <i>Gran Premio Motul de la Comunitat Valenciana 2022 - Parrilla de salida</i>
 
 
