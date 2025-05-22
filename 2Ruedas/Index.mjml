@@ -1,0 +1,21 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+        .box-shadow td {
+            box-shadow: 0 10px 6px rgb(91, 25, 29), 0 1px 3px hsla(0,0%,46%,0.2);
+        }
+        </mj-style>
+    </mj-head>
+
+
+    <mj-body>
+    <mj-section>
+        <mj-column border-radius="5px" background-color="#E6323E">
+        <mj-image css-class="box-shadow" padding="20px" border-radius="5px" src="../images/cabecera2r.jpg" />
+        </mj-column>
+    </mj-section>
+    </mj-body>
+
+
+
+</mjml>
