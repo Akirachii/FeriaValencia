@@ -7,7 +7,7 @@
 Los primeros pasos, seran;
 
 - Iniciamos una nueva instancia y le otorgamos una ip elastica
-  ![ssh image](./instance_images/ssh_to_instance.png)
+  ![ssh image](./instance_images/ssh_to_instance.png)  
 sudo apt install npm
 
     Nos aseguraremos de que se pueda acceder por ssh, hacer ping y que tenga abiertos los puertos de 80 para poder usar nginx
@@ -46,8 +46,29 @@ sudo apt install npm
 
 Aqui ya podemos ver que si probamos en vs si que funciona.
 
-## Vamos a instalar node.js para pasar los archivos mjml a html
+## Instalamos mailutils  
+ Instalamos mailutils y postfix y configuramos  
+ ![postfix config](./instance_images/postfix_config.png)  
+    Editamos el main.cf para que quede tal que asi:  
 
-- Tras instalar vemos la version:  
-![versions](./instance_images/versions_node&nm.png)
+       relayhost = [smtp.gmail.com]:587
+        smtp_use_tls = yes
+        smtp_sasl_auth_enable = yes
+        smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+        smtp_sasl_security_options = noanonymous 
+        mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+        mailbox_size_limit = 0
+        recipient_delimiter = +
+        inet_interfaces = all
+        inet_protocols = ipv4
+            
 
+Ahora, como veis, el archivo referencia a otro (sasl_passwd) que se encarga de manejar las credenciales del mail, este esta escrito tal que asi:  
+    `[smtp.gmail.com]:587   {your@mail}:{password}`
+
+Tendremos que abrir los puertos del EC2 587
+
+Los siguientes comandos, seran para decirle al postmap que use el archivo y para darle permisos. Luego reiniciamos el servicio.
+
+Con esto ya podemos enviar un mail: probaremos tal que asi:
+![mail image](./instance_images/mail_test.png)
