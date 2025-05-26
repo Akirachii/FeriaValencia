@@ -9,9 +9,12 @@
     > TestingPhase/             [WIP]
         > Index.html
         > README.md
-    > 2Ruedas/
+    > 2Ruedas/                  [WIP]
         > Index.mjml
-        > README.md 
+        > README.md
+    > AWS-server/
+        > instance_images/
+        > README.md
 ```
 
 Ver [2Ruedas](https://github.com/Akirachii/FeriaValencia/tree/main/2Ruedas)
