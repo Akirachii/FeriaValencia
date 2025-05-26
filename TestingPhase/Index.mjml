@@ -23,7 +23,7 @@
       </mj-column>
   </mj-section>
 
-  <mj-section border-radius="15px" background-url="../images/imggit.png" background-size="cover" background-repeat="no-repeat">
+  <mj-section border-radius="15px" background-url="http://54.175.104.117/imggit.png" background-size="cover" background-repeat="no-repeat">
       <mj-column width="600px">
         <mj-text align="right" color="#fff" font-size="40px" font-family="Helvetica Neue">:D</mj-text>
         <mj-text color="#E6E8E6" align="right">Soy pau y este es una diminuta demostracion de mis habilidades</mj-text>
