@@ -72,3 +72,26 @@ Los siguientes comandos, seran para decirle al postmap que use el archivo y para
 
 Con esto ya podemos enviar un mail: probaremos tal que asi:
 ![mail image](./instance_images/mail_test.png)
+
+
+## Cremos un script para convertir el fichero mjml a html
+
+converter.sh >>
+
+    #!/bin/bash
+    #
+    #       Pau Gradoli 
+    #
+    #       v.0.1
+    #
+    if [ -z "$1" ]; then
+            echo "File not exists"
+            exit 1
+    fi
+
+    file=$1
+    salida="${file%.mjml}.html"
+
+    mjml "$file" -o "$salida" && echo "Convertido a $salida"
+
+![converter finished](./instance_images/converter.png)
