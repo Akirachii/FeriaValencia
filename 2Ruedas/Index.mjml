@@ -6,8 +6,6 @@
         }
         </mj-style>
     </mj-head>
-
-
     <mj-body>
     <mj-section>
         <mj-column border-radius="5px" background-color="#E6323E">
