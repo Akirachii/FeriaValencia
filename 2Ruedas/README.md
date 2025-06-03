@@ -20,6 +20,8 @@ En este caso buscamos llamar la atencion de los visitantes y que rellenen el for
 #### Dafo y competencia
 
  - Dafo  
+   ![Img dAfo](DAFO_2RD.png)
+
     WIP
  - Competencia  
     WIP

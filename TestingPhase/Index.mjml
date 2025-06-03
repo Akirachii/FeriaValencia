@@ -7,6 +7,17 @@
 
    </mj-style>
 
+
+<mj-style inline="inline">
+  .box-shadow img {
+    box-shadow: 0 10px 6px rgb(91, 25, 29), 0 10px 6px hsla(0,0%,46%,0.2);
+  }
+  .overlap-section {
+    margin-top: -40px;
+    z-index: 10;
+    position: relative;
+  }
+</mj-style>
   </mj-head>
     
   <mj-body background-color="#4E8098">
@@ -36,11 +47,16 @@
       <mj-text font-family="Roboto">Testing Phase</mj-text>
     </mj-column>
 
-  
-
   </mj-section>
 
-
-
   </mj-body>
+  
 </mjml>
+
+
+
+
+
+
+
+

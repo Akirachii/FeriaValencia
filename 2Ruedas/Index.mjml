@@ -1,19 +1,102 @@
 <mjml>
     <mj-head>
+        <mj-title>2 Ruedas - Moto Event</mj-title>
+        <mj-preview>¡Vuelve el Salón 2 Ruedas con el Gran Premio de la Comunidad Valenciana!</mj-preview>
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="h1" color="white" font-size="20px" font-weight="bold" align="center"/>
+            <mj-class name="h2" color="white" font-size="15px" text-align="left" padding="20px"/>
+            <mj-class name="text" background-color="#B94747" align="center"/>
+            <mj-all font-family="Roboto" />
+        </mj-attributes>
+
         <mj-style inline="inline">
-        .box-shadow td {
-            box-shadow: 0 10px 6px rgb(91, 25, 29), 0 1px 3px hsla(0,0%,46%,0.2);
-        }
-        </mj-style>
+            .box-shadow img {
+                box-shadow: 0 10px 6px rgb(91, 25, 29), 0 10px 6px hsla(0,0%,46%,0.2);
+            }
+            .overlap-section {
+                margin-top: -40px;
+                z-index: 10;
+                position: relative;
+            }
+            </mj-style>
     </mj-head>
-    <mj-body>
-    <mj-section>
-        <mj-column border-radius="5px" background-color="#E6323E">
-        <mj-image css-class="box-shadow" padding="20px" border-radius="5px" src="../images/cabecera2r.jpg" />
-        </mj-column>
-    </mj-section>
+
+    <mj-body background-color="#E6323E">
+    
+    <!-- Header with logo and title -->
+        <mj-section>
+            <mj-column>
+                <mj-image css-class="box-shadow" border-radius="15px"  align="left" src="http://54.175.104.117/cabecera2r.jpg" alt="2 Ruedas Logo" />
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section mj-class="text" border-radius="15px" css-class="overlap-section">
+            
+            <mj-column width="25%" >
+            <mj-image width="50px" src="http://54.175.104.117/motul_logo.png" alt="motul logo" />
+            </mj-column>
+            <mj-column width="70%" >
+                <mj-text mj-class="h1" >
+                    El Salón 2 Ruedas vuelve a coincidir con el Gran Premio MOTUL de la Comunidad Valenciana
+                </mj-text>
+            
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                 <mj-image css-class="box-shadow" border-radius="15px" src="http://54.175.104.117/motogp-motul.jpg" alt="MotoGP"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section  mj-class="text" border-radius="15px">
+            <mj-column width="60%" >
+                <mj-text mj-class="h2" >
+                    Feria Valencia
+                    Territorio DOS RUEDAS <br>
+                    ¡Vive el mundo de las dos ruedas como nunca antes!  <br>
+                    Más de 12.000 m² de adrenalina, estilo y pasión te esperan en Feria Valencia.<br>
+                    Descubre los últimos modelos de motos y bicis, disfruta de actividades para todos, zona de restauración, moda motera y mucho deporte en un fin de semana inolvidable. <br>
+                    Las grandes marcas del sector ya están preparadas. ¿Y tú? <br>
+                    ¡Nos vemos en 2Ruedas! <br>
+                </mj-text>
+            </mj-column>
+            <mj-column width="40%">
+                <mj-image css-class="box-shadow" border-radius="15px" src="http://54.175.104.117/AERO.jpg" alt="Biker Action" />
+            </mj-column>
+
+        </mj-section>
+
+
+        <!-- Secondary images and highlights -->
+        <mj-section background-url="http://54.175.104.117/deco-02.png" padding="50px">
+            <mj-group>
+                <mj-column>
+                    <mj-image css-class="box-shadow" border-radius="15px" src="http://54.175.104.117/rape.jpg" alt="Wheel" />
+                </mj-column>
+                <mj-column>
+                    <mj-image css-class="box-shadow" border-radius="15px" src="http://54.175.104.117/AERO.jpg" alt="Biker Action" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <!-- Footer with sponsors and collabs -->
+        <mj-section background-color="black" >
+            <mj-column width="25%">
+                <mj-text mj-class="h2" font-weight="bold">Patrocina:</mj-text>
+                <mj-image src="https://example.com/sponsor-logo1.png" width="80px" />
+                <mj-image src="https://example.com/sponsor-logo2.png" width="80px" />
+            </mj-column>
+            <mj-column width="75%">
+                <mj-text mj-class="h2" font-weight="bold">Colabora:</mj-text>
+                <mj-image src="https://example.com/collab-logo1.png" width="80px" />
+                <mj-image src="https://example.com/collab-logo2.png" width="80px" />
+            </mj-column>
+        </mj-section>
+
+
+
+    <!-- Aki was here!! :D -->
     </mj-body>
-
-
-
 </mjml>
