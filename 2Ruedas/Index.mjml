@@ -68,7 +68,6 @@
 
         </mj-section>
 
-
         <!-- Secondary images and highlights -->
         <mj-section background-url="http://54.175.104.117/deco-02.png" padding="50px">
             <mj-group>
@@ -94,8 +93,6 @@
                 <mj-image src="https://example.com/collab-logo2.png" width="80px" />
             </mj-column>
         </mj-section>
-
-
 
     <!-- Aki was here!! :D -->
     </mj-body>
