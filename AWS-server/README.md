@@ -99,3 +99,5 @@ converter.sh >>
 Vamos a probar a enviar un correo usando uno de los archivos recien convertidos:
 
 ![envio correo](./instance_images/mail_test2.png )
+
+Ahora ya podemos enviar nuestros mails!

@@ -1,0 +1,56 @@
+<mjml>
+
+    <mj-head>
+            <mj-title>2 Ruedas - Moto Event</mj-title>
+            <mj-preview>¡Vuelve el Salón 2 Ruedas con el Gran Premio de la Comunidad Valenciana!</mj-preview>
+            <mj-attributes>
+                <mj-text padding="0" />
+                <mj-class name="h1" color="white" font-size="20px" font-weight="bold" align="center"/>
+                <mj-class name="h2" color="white" font-size="15px" text-align="left" padding="20px"/>
+                <mj-class name="text" background-color="#B94747" align="center"/>
+                <mj-all font-family="Roboto" />
+            </mj-attributes>
+
+            <mj-style inline="inline">
+                .box-shadow img {
+                    box-shadow: 0 10px 6px rgb(91, 25, 29), 0 10px 6px hsla(0,0%,46%,0.2);
+                }
+                .overlap-section {
+                    margin-top: -40px;
+                    z-index: 10;
+                    position: relative;
+                }
+                </mj-style>
+        </mj-head>
+
+  <mj-body background-color="#f7f7f7">
+    
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-image src="https://cevisama.feriavalencia.com/wp-content/uploads/2025/03/PROALSO-HOME.jpg" alt="Cevimasa Logo" />
+        <mj-text font-size="20px" font-weight="bold" color="#333333" align="center">
+          ¡Bienvenidx a Cevimasa 2025!
+        </mj-text>
+        <mj-divider border-color="#e74c3c" />
+        <mj-text font-size="16px" color="#555555" line-height="1.5">
+          🍷 Descubre lo último en cerámica, diseño e innovación en el evento más 🔥 del año.  
+          <br /><br />
+          📍 Feria Valencia – 24 al 28 de Febrero  
+          🕒 ¡Reserva tu stand ya o consigue tu entrada!
+        </mj-text>
+        <mj-button background-color="#e74c3c" color="#ffffff" href="https://cevimasa.com" font-size="16px" border-radius="4px">
+          Visítanos en línea
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f0f0f0" padding="10px">
+      <mj-column>
+        <mj-text font-size="12px" color="#999999" align="center">
+          © 2025 CEVIMASA • Feria Valencia • Síguenos en redes @cevimasa
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
